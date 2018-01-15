@@ -151,8 +151,8 @@ exec gnome-terminal --role "$ssh1 Confluence" -e "ssh confluence"
 exec gnome-terminal --role "$ssh1 Graylog" -e "ssh graylog"
 exec gnome-terminal --role "$ssh2 PVESD01" -e "ssh pvesd01"
 exec gnome-terminal --role "$ssh2 PVEPDX01" -e "ssh pvepdx01"
-exec gnome-terminal --role "Spotify" -e "sconsify -username=gregkluthesound"
-exec xdg-open https://unifi.thepiaagency.com:8443
+#exec gnome-terminal --role "Spotify" -e "sconsify
+#exec xdg-open 
 exec xdg-open https://teams.microsoft.com
 
 #Assign apps to Workspace
